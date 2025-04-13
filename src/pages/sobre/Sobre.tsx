@@ -1,5 +1,5 @@
 
-function Home() {
+function Sobre() {
     return (
         <>
             <div className="bg-sky-500 flex justify-center">
@@ -18,4 +18,5 @@ function Home() {
     )
 }
 
-export default Home
+
+export default Sobre
