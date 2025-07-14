@@ -9,7 +9,7 @@ function Sobre() {
                             CarBrun Grafica!
                         </h2>
                         <p className='text-xl'>
-                            Colocamos sua ideia no papel!
+                            Saiba mais sobre a gente
                         </p>
                     </div>
                 </div>

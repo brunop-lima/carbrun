@@ -1,4 +1,4 @@
-import { FacebookLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
+import { Envelope, InstagramLogo, WhatsappLogo } from '@phosphor-icons/react'
 
 function Footer() {
 
@@ -11,14 +11,14 @@ function Footer() {
                         </p>
                     <p className='text-lg'>Acesse nossas redes sociais</p>
                     <div className='flex gap-2'>
-	                        <a href="https://www.linkedin.com/in/seu_usuario" target="_blank">
-    	                    <LinkedinLogo size={48} weight='bold' />
+	                        <a href="https://wa.me/+551149976830?text=Ol%C3%A1%2C%20" target="_blank">
+    	                    <WhatsappLogo size={48} weight='bold' />
                         </a>
-                            <a href="https://www.instagram.com/seu_usuario" target="_blank">
+                            <a href="https://www.instagram.com/carbrun.grafica?igshid=YzAwZjE1ZTI0Zg%3D%3D" target="_blank">
     	                    <InstagramLogo size={48} weight='bold' />
                         </a>
-                            <a href="https://www.facebook.com/seu_usuario" target="_blank">
-    	                    <FacebookLogo size={48} weight='bold' />
+                            <a href="mailto:carbrun.grafica@gmail.com " target="_blank">
+    	                    < Envelope size={48} weight='bold' />
 	                    </a>
                     </div>
                 </div>
