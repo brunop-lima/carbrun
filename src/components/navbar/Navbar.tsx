@@ -1,6 +1,19 @@
-import { Link } from "react-router-dom"
+import { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom"
+import { AuthContext } from "../../contexts/AuthContex";
 
 function Navbar() {
+
+    const navigate = useNavigate();
+
+    const {handleLogout} = useContext(AuthContext);
+
+    function logout() {
+        handleLogout()
+        alert('O Usuario foi Deslogado com Sucesso!')
+        navigate('/')
+    }
+    
     return (
         <>
             <div className='w-full flex justify-center py-4
@@ -10,8 +23,10 @@ function Navbar() {
                     <Link to='/home' className="text-2xl font-bold">CarBrun Grafica</Link>
 
                     <div className='flex gap-4'>
-                        Categorias
+                        Produtos
+                        <Link to='/categorias' className='hover:underline'>Categorias</Link>
                         Sobre
+                        <Link to='' onClick={logout} className='hover:underline'>Sair</Link>
                     </div>
                 </div>
             </div>
