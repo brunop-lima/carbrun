@@ -1,3 +1,5 @@
+import capa from '../../assets/carbrun_cover.png'
+
 function Home() {
   return (
     <>
@@ -7,6 +9,18 @@ function Home() {
           <h2 className="text-5xl font-bold">CarBrun Gráfica!</h2>
           <p className="text-xl">Colocamos sua ideia no papel!</p>
         </div>
+      </div>
+
+      <div className="bg-pink-200 flex justify-center min-h-screen px-4 py-4 text-gray-800" >
+        
+        <div className="container max-w-3xl flex flex-col items-center justify-center text-center gap-4">
+          <img src={capa} alt="Logo Carbrun" className="w-48 h-auto" />
+          <p className="text-xl"> A Gráfica Carbrun é especializada em design gráfico e impressão de papel, localizada em Santo André, no ABC Paulista.Oferecemos um serviço completo, desde a criação da arte até a impressão e entrega do produto final.</p>
+          <p className="text-xl"> Nosso grande diferencial é que, além de imprimir, nós colocamos a sua ideia no papel.</p>
+          <p className="text-xl"> Entendemos as necessidades, buscamos tendências do mercado e solucionamos a ideia de cada cliente, criando peças únicas e personalizadas, que traduzem a sua identidade visual e comunicam a sua mensagem de forma eficaz.</p>
+          <p className="text-xl"> Mas caso você queira um diferencial, estamos prontos para transformar a sua ideia em papel de forma exclusiva e criativa!</p>
+         </div>
+
       </div>
 
       {/* Seção do formulário */}

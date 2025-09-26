@@ -20,12 +20,12 @@ function Navbar() {
             			   bg-pink-500		 text-white'>
             
                 <div className="container flex justify-between text-lg">
+                    
                     <Link to='/home' className="text-2xl font-bold">CarBrun Grafica</Link>
 
                     <div className='flex gap-4'>
                         Produtos
                         <Link to='/categorias' className='hover:underline'>Categorias</Link>
-                        Sobre
                         <Link to='' onClick={logout} className='hover:underline'>Sair</Link>
                     </div>
                 </div>
